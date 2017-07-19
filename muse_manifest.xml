@@ -1,0 +1,108 @@
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="congressoortodontia.com" resolutions="1x" timestamp="1500391459884">
+  <folder name="css">
+    <file name="site_global.css" crc="64045577"/>
+    <file name="index.css" crc="4157010638" ref="index"/>
+    <file name="iefonts_index.css" crc="4053913709" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="4232573551" ref="phone>index:tablet>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:tablet>index:index"/>
+    <file name="museconfig.js" crc="3849126041" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="phone>index:tablet>index:index"/>
+    <file name="require.js" crc="4234670167" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index"/>
+    <file name="form_check.php" crc="3841221102" ref="index"/>
+    <file name="form_throttle.php" crc="4048049783" ref="index"/>
+    <file name="form_process.php" crc="3899230280" ref="index"/>
+    <file name="form-u888.php" crc="4157137639" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="sem título-1-01.png" crc="216156915" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="green-bg.png" crc="3906196488" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smilify-flexible-invisalign.jpg" crc="3948822842" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="j1f9diji.jpg" crc="4111495436" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="placeholder_small.jpg" crc="481021176" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-ufla.jpg" crc="4146406550" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="placeholder-u5000-fr.jpg" crc="3765381988" ref="index"/>
+    <file name="placeholder.jpg" crc="356454477" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="coca-cola-logo-56985c1769-seeklogocom.png" crc="229341549" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="placeholder373x240.jpg" crc="4154539803" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="left_button.png" crc="4286404702" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="right_button.png" crc="522112674" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="close_button.png" crc="4021817847" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="imagem colada 564x255.jpg" crc="392848458" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg colado 96817x96_poster_.png" crc="482463338" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg colado 96817x96_poster_2.png" crc="373240417" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg colado 96817x96_poster_3.png" crc="3837567771" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="svg colado 96817x96_poster_4.png" crc="321813006" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="4046498137" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="4258713111" seo="true" mt="1407282716505" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="263663261" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4232799166" seo="true" mt="1407282697538" redirect="false"/>
+  </folder>
+  <file name="index.html" crc="4073498014" seo="true" mt="1500391299362" redirect="true"/>
+</manifest>
