@@ -1,0 +1,10 @@
+#home{
+	opacity: 1;
+    position: absolute;
+    background-image: url("../img/goiania.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+}

@@ -1,0 +1,17 @@
+#localizacao {
+    background-color: #03256C;
+    display: inline-block;
+}
+
+#conteudo-localizacao {
+    color: white;
+    width: 50vw;
+    height: 81vh;
+    float: right;
+    padding: 5vw;
+}
+
+#mapa {
+    width: 50vw;
+    height: 81vh;
+}

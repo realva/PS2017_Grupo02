@@ -1,0 +1,32 @@
+.boxcontato{
+    height: 50vh;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.boxcontato2{
+    min-height: 1px;
+    width: 30vw;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+#form {
+    color: white;
+    background-color: #449dd1;
+    height: 81vh;
+}
+#formcontato{
+    padding: 10px;
+    text-align: center;
+}
+#botao{
+    margin-top: 10px;
+}
+.sobrebox{
+    width: 70%;
+}
+@media screen and (max-width: 762px) {
+    .boxcontato2{
+        width: 90vw;
+    }
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap4/css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/homeStyle.css" rel="stylesheet">
+    <link href="css/sectionHome.css" rel="stylesheet">
+    <link href="css/sectionPalestrante.css" rel="stylesheet">
+    <link href="css/sectionOrganizadores.css" rel="stylesheet">
+    <link href="css/sectionPatrocinadores.css" rel="stylesheet">
+    <link href="css/sectionLocalizacao.css" rel="stylesheet">
+    <link href="css/sectionContato.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+        </button>
+        <a onclick="mostra('home');"><img src="img/logo.png" onclick="mostra('sobre');"></a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" onclick="mostra('sobre', '0');" id="0">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="mostra('palestrantes', '1');" id="1">Palestrantes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="mostra('organizadores', '2');" id="2">Organizadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="mostra('patrocinadores', '3');" id="3">Patrocinadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="mostra('localizacao', '4');" id="4">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="mostra('contato', '5');" id="5">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="section" id="home">
+        <div class="painel centralizavertical text-center">
+            <div class="centro">
+                <h1 class="text-center">10º Congresso Nacional de Ortodontia</h1>
+                <p class="lead">Nosso evento lhe proporcionará palestras sobre ortodontia, onde os melhores palestrantes e dentistas do Brasil
+                    se encontram. <br> O evento será realizado na cidade de Goiânia, considerada a capital nacional de odontologia.</p>
+                <p>Inscreva-se e participe! Fique por dentro de todas as informações do evento.</p>
+                <p class="lead text-center  ">
+                    <a href="inscricao.html"><button type="button" class="btn btn-primary btn-lg">INSCREVA-SE</button></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="sobre">
+        <div class="painel centralizavertical text-center">
+            <div class="centro sobrebox">
+                <h1 class="text-center">NO EVENTO</h1>
+                <p class="lead"> Paralelamente ao congresso, realiza-se uma grande feira comercial, a segunda maior do país no setor, que
+                    conta com expositores brasileiros e também de diversas partes do mundo. </p>
+                <hr class="my-4">
+                <p>Durante os quatro dias de evento, realizam-se negócios importantes para o setor, com vendas que ultrapassam
+                    20 milhões de Reais. Para algumas empresas, o CIORJ é o evento de maior retorno financeiro ao longo de
+                    todo o ano.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section centralizavertical" id="palestrantes">
+        <div class="centro">
+            <h1 class="text-center nomeBox titulo">PALESTRANTES</h1>
+            <div class="centro">
+                <div id="p1" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Gabriel</h4>
+                    </div>
+                </div>
+                <div id="p2" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Batata</h4>
+                    </div>
+                </div>
+                <div id="p3" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">André</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="centro">
+                <div id="p4" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Nicolas</h4>
+                    </div>
+                </div>
+                <div id="p5" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Jacaré</h4>
+                    </div>
+                </div>
+                <div id="p6" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Bruno</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section centralizavertical" id="organizadores">
+        <div class="centro">
+            <h1 class="text-center nomeBox titulo">ORGANIZADORES</h1>
+            <div class="centro">
+                <div id="o1" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">CompJúnior</h4>
+                    </div>
+                </div>
+                <div id="o2" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">CACC</h4>
+                    </div>
+                </div>
+                <div id="o3" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">CASI</h4>
+                    </div>
+                </div>
+                <div id="o4" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">UFLA</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section centralizavertical" id="patrocinadores">
+        <div class="centro">
+            <h1 class="text-center nomeBox titulo">PATROCINADORES</h1>
+            <div class="centro">
+                <div id="pa1" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Sensodyne</h4>
+                    </div>
+                </div>
+                <div id="pa2" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Listerine</h4>
+                    </div>
+                </div>
+                <div id="pa3" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">CloseUp</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="centro">
+                <div id="pa4" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Colgate</h4>
+                    </div>
+                </div>
+                <div id="pa5" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Oral-B</h4>
+                    </div>
+                </div>
+                <div id="pa6" class="box">
+                    <div class="efeito">
+                        <h4 class="nomeBox">Unilever</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="localizacao">
+        <div id="conteudo-localizacao">
+            <h2>Localização Evento <i class="material-icons">pin_drop</i></h2>
+            <p> Rua: 4
+                <br> Número: 1400
+                <br> Bairro: Setor Central
+                <br> Cidade: Goiânia
+                <br> CEP: 74025-020
+            </p>
+            <h2>Linhas de Onibus <i class="material-icons">directions_bus</i></h2>
+            <p> linhas: 4, 18 e 22</p>
+            <h2>Linhas de Metrô <i class="material-icons">directions_railway</i></h2>
+            <p> linhas: 8 e 13</p>
+        </div>
+        <div id="mapa"></div>
+    </div>
+    <div class="section " id="contato">
+        <div class="row">
+            <div class="col-md-6 pai" id="info">
+                <div class="boxcontato2">
+                    <div class=" centro">
+                        <h2>Contato <i class="material-icons">contact_mail</i></h2>
+                        <p> Entre em contato conosco, estamos esperando seu feedback!
+                            <br> Telefone: (38) 99142-8912
+                            <br> E-mail: contato@dco.go.br
+                            <br> Cidade: Goiânia
+                            <br> CEP: 74025-020
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pai" id="form">
+                <div class="boxcontato">
+                    <form method="post" id="formcontato" class="centroform">
+                        <label>Nome Completo</label>
+                        <input type="text" id="nome" class="form-control">
+                        <label>E-mail</label>
+                        <input type="email" id="email" class="form-control">
+                        <label>Digite sua mensagem</label>
+                        <textarea id="msg" class="form-control"></textarea>
+
+                        <button class="btn btn-primary" id="botao">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+<script src="js/efeitoMenuSection.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA3aEUrfcikzBt0Bq8R8IsdT4PlIlZ2lAk&amp;"></script>
+<script src="js/map.js"></script>
+
+</html>
