@@ -1,0 +1,89 @@
+.btnpadrao{
+    width: 129px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group-addon, .form-control {
+    border: 1px solid rgba(0, 0, 1, 0.3);
+}
+
+.pai {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("http://www.vivencehoteis.com.br/vivence-suites-hotel-goiania/wp-content/uploads/2017/04/LagoDasRosas.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card-centro {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.card {
+    max-width: 700px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.botoes {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-block{
+	padding-bottom: 0;
+}
+
+.a {
+	color: rgb(46, 101, 175);
+}
+
+.btn-outline-primary {
+    color: rgb(46, 101, 175);
+    border-color: rgb(46, 101, 175);
+}
+
+.offset-sm-2 {
+    margin-left: 0%;
+}
+.btn {
+	margin-right: 15px;
+}
+
+.form-control {
+    border-color: rgb(46, 101, 175);
+}
+
+.input-group-addon:not(:last-child) {
+	background-color: white;
+    border-color: rgb(46, 101, 175);
+    color: rgb(46, 101, 175);
+}
+
+.card-header {
+	border-color: rgb(46, 101, 175);
+}
+
+.card-footer {
+	border-color: rgb(46, 101, 175);
+}
+
+.card-block {
+	margin-bottom: 2px;
+}

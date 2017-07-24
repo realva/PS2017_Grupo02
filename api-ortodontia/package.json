@@ -1,0 +1,19 @@
+{
+  "author": "Grupo 2 PS",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Site para congresso de ortodontia.",
+  "name": "node-api",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "mongoose": "*",
+    "request": "^2.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/tutorial-crud-node-express-mongodb"
+  }
+}

@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/*NAVBAR CSS*/
+.nav-item {
+    width: 12.5vw;
+    text-align: center;
+}
+
+.navbar-toggler {
+    margin-top: 26px;
+}
+
+.navbar {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    min-height: 19vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-link{
+    border-bottom: 1px solid #f7f7f7;
+    transition: border-bottom-color 0.5s linear;
+}
+
+/*SECTION CSS*/
+.section {
+    min-height: 81vh;
+    width: 100%;
+    top: 19vh;
+    transition: opacity 2s linear;
+    opacity: 0;
+}
+/*CLASSES UTILIZADAS PARA CENTRALIZAR*/
+.centro {
+    vertical-align: middle;  
+}
+
+.centralizavertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pai {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.centroform {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+/*EFEITO HOVER DA BOX*/
+.nomeBox{
+    color: white;
+}
+.efeito{
+    opacity: 0;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    transition: opacity 0.5s linear;
+}
+.efeito:hover{
+    opacity: 1;
+    background: rgba(0, 75, 168, 0.5);
+}
+/*PAINEL UTILIZADO NA HOME*/
+.painel {
+    width: 100%;
+    top: 19vh;
+    height: 81vh;
+    background: rgba(0, 75, 168, 0.5);
+    color: white;
+}
+/*EFEITO DAS SECTIONS*/
+#sobre,#palestrantes,#patrocinadores,#organizadores,#localizacao,#contato {
+    opacity: 0;
+    z-index: 0;
+    position: fixed;
+}
+
+.my-4{
+    border-color: white;
+}
+
+.painel2{
+    width: 100%;
+    top: 19vh;
+    height: 81vh;
+    background: #A0D2DB;
+    color: white; 
+}
+
+a {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    margin-top: 15px;
+    margin-bottom: 20px; 
+}
+
+@media screen and (max-width: 762px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    #form,
+    #info {
+        height: 50vh;
+        width: 100vw;
+    }
+    .boxcontato2{
+        width: 90vw;
+    }
+
+    #mapa, #conteudo-localizacao{
+        height: 60vh;
+        width: 100vw;
+    }
+    #conteudo-localizacao{
+        float: left;
+        text-align: left; 
+    }
+    .box{
+        width: 50%;
+        margin: 5px 25%;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap4/css/bootstrap.css" rel="stylesheet">
+    <link href="css/loginStyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pai">
+        <div class="card card-centro text-center">
+            <div class="card-header text-center">
+                <img src="img/logo2.png" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="card-block">
+                <form method="post" id="formDadosLogin">
+                    <div class="input-group">
+                        <!--<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>-->
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1">E-mail</span>
+                            <input type="email" id="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required="true">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon" id="sizing-addon1">Senha</span>
+                            <input type="password" id="senha" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="true">
+                        </div>
+                    </div>
+                    <div class="botoes">
+                        <button type="submit" class="btn btn-outline-primary">Concluir</button>
+                        <a href="home.html" class="btn btn-outline-danger" onclick="home.html">Cancelar</a>
+                    </div>
+                    <a href="" class="link">Esqueci minha senha</a>
+                </form>
+            </div>
+            <div class="card-footer text-center">
+                <a href="inscricao.html" class="btn btn-outline-primary" style="margin-bottom: 0px;">INSCREVA-SE</a>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <center>
+                        <h4 class="modal-title" id="tituloModal">Modal Header</h4>
+                    </center>
+                </div>
+                <div class="modal-body">
+                    <p id="conteudoModal">Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnFecharModalRedirecionar" class="btn btn-default" data-dismiss="modal">OK</button>
+                    <button type="button" id="btnFecharModal" class="btn btn-default" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/login.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+
+</html>
